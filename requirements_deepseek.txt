@@ -1,0 +1,7 @@
+# Requirements for DeepSeek-R1 model demo
+transformers>=4.34.0
+torch>=2.0.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0  # For quantization support if needed
+sentencepiece>=0.1.99  # Often needed for tokenizers
+flask>=2.0.0  # For web application
